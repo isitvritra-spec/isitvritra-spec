@@ -1,0 +1,78 @@
+{
+  "_readme": "Template matching SCHEMA.md. Replace the single example row in each array. Dates YYYY-MM-DD, date-times YYYY-MM-DDTHH:MM. Save as data.json and run python3 build.py.",
+
+  "owner": "RED",
+
+  "calendar": [
+    { "id": "c1", "date": "2026-09-09", "time": "09:30", "duration": 60, "title": "", "meta": "", "cadence": "One-off", "kind": "upcoming", "hub": "", "open_to_all": "no" }
+  ],
+
+  "recurring": [
+    { "weekday": "Tuesday", "week": "every", "time": "09:30", "duration": 60, "title": "", "meta": "", "cadence": "Weekly", "kind": "statutory" }
+  ],
+
+  "documents": [
+    { "topic": "", "title": "", "type": "Report", "origin": "Drafted by PAMS", "due": "2026-09-12", "status": "Drafting", "link": "", "path": "" }
+  ],
+
+  "missions": [
+    { "id": "", "place": "", "start": "2026-09-21", "end": "2026-09-24", "purpose": "", "tr_approved": "yes", "report_submitted": "no", "claim_submitted": "no" }
+  ],
+
+  "conferences": [
+    { "id": "", "title": "", "start": "2026-11-18", "end": "2026-11-18", "role": "Panellist", "confirmed": "no", "abstract_sent": "no", "slides_ready": "no", "brief_read": "no" }
+  ],
+
+  "memos": [
+    { "id": "", "topic": "", "action": "read", "origin": "CO", "title": "", "meta": "", "date": "2026-09-08", "link": "" }
+  ],
+
+  "inbox_rules": {
+    "categories": ["Invitation to conference", "Document to review", "Decision to make", "Needs response", "For information"],
+    "urgency_rules": [""],
+    "reminder_lead": "1 day before"
+  },
+
+  "mails": [
+    { "id": "", "topic": "", "short": "", "category": "Decision to make", "action": "Action required", "urgent": "no", "subject": "", "sender": "", "received": "2026-09-23T08:00", "responded": "no", "summary": "", "attachment": "" }
+  ],
+
+  "requests": [
+    { "id": "", "topic": "", "from": "", "title": "", "urgency": "This week", "received": "2026-09-23T08:00" }
+  ],
+
+  "todos": [
+    { "id": 1, "topic": "", "text": "", "kind": "Task", "due": "2026-09-23T17:00", "done": "no" }
+  ],
+
+  "topics": {},
+
+  "hubs": [
+    { "hub": "Nairobi hub", "lead_text": "", "open_missions": 0, "missions_note": "", "meetings_this_week": 0, "meetings_note": "",
+      "extra_stat": null,
+      "activities": [
+        { "activity_title": "", "activity_meta": "", "due": "2026-09-18", "status": "Drafting" }
+      ],
+      "people": [
+        { "name": "", "role": "" }
+      ],
+      "pending": "" }
+  ],
+
+  "directory": [
+    { "name": "", "role": "", "hub": "", "mutual_access": "yes" }
+  ],
+
+  "shared_files": [
+    { "title": "", "owner": "", "updated": "2026-09-04", "scope": "All hubs" }
+  ],
+
+  "setup": [
+    { "name": "", "status": "Awaiting", "need": "", "target": "" }
+  ],
+
+  "monthly_report": {
+    "stats": [{ "value": 0, "label": "" }],
+    "sections": [{ "title": "", "page": "Page 1", "lines": [""] }]
+  }
+}

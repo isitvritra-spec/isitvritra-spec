@@ -1,0 +1,172 @@
+{
+  "owner": "RED",
+  "calendar": [
+    { "id": "c1", "date": "2026-09-09", "time": "15:30", "duration": 90, "title": "Regional preparedness webinar", "meta": "You chair the Q&A", "cadence": "One-off", "kind": "conference", "hub": "", "open_to_all": "no" },
+    { "id": "c2", "date": "2026-09-12", "time": "10:00", "duration": 120, "title": "Deep dive — regional preparedness", "meta": "All hubs invited · 2h", "cadence": "Programme", "kind": "upcoming", "hub": "", "open_to_all": "yes" },
+    { "id": "c3", "date": "2026-09-15", "time": "13:00", "duration": 240, "title": "Health emergencies conference — day 1", "meta": "Amman · keynote", "cadence": "One-off", "kind": "conference", "hub": "", "open_to_all": "no" },
+    { "id": "c4", "date": "2026-09-16", "time": "09:00", "duration": 240, "title": "Health emergencies conference — day 2", "meta": "Amman · panel", "cadence": "One-off", "kind": "conference", "hub": "", "open_to_all": "no" },
+    { "id": "c5", "date": "2026-09-15", "time": "11:00", "duration": 60, "title": "Nairobi operations review", "meta": "Hub leads + partners", "cadence": "One-off", "kind": "upcoming", "hub": "Nairobi", "open_to_all": "yes" },
+    { "id": "c6", "date": "2026-09-16", "time": "10:00", "duration": 60, "title": "Dakar cholera response sync", "meta": "With WCO Senegal", "cadence": "Weekly", "kind": "upcoming", "hub": "Dakar", "open_to_all": "yes" },
+    { "id": "c7", "date": "2026-09-17", "time": "14:00", "duration": 90, "title": "Brazzaville workplan session", "meta": "Budget and staffing", "cadence": "One-off", "kind": "upcoming", "hub": "Brazzaville", "open_to_all": "yes" },
+    { "id": "c8", "date": "2026-09-25", "time": "10:00", "duration": 90, "title": "Cluster coordination — NCD & EPR", "meta": "Joint field visit planning", "cadence": "One-off", "kind": "upcoming", "hub": "Cluster", "open_to_all": "yes" }
+  ],
+  "recurring": [
+    { "weekday": "Tuesday", "week": "every", "time": "09:30", "duration": 60, "title": "EPR programme management meeting", "meta": "Teams · programme leads", "cadence": "Weekly", "kind": "statutory" },
+    { "weekday": "Thursday", "week": "every", "time": "14:00", "duration": 90, "title": "Weekly directors meeting", "meta": "RD office · Boardroom 2", "cadence": "Weekly", "kind": "statutory" },
+    { "weekday": "Wednesday", "week": 2, "time": "11:00", "duration": 60, "title": "EPRL staff meeting", "meta": "All EPRL staff · hybrid", "cadence": "Monthly", "kind": "statutory" },
+    { "weekday": "Wednesday", "week": 4, "time": "10:00", "duration": 90, "title": "EPR Regional Office meeting", "meta": "Cluster leads", "cadence": "Monthly", "kind": "statutory" },
+    { "weekday": "Tuesday", "week": "last", "time": "16:00", "duration": 60, "title": "Monthly report review with RD", "meta": "Bring the 3-page summary", "cadence": "Monthly", "kind": "upcoming" }
+  ],
+  "documents": [
+    { "title": "EPR Regional Preparedness Concept Note 2027", "type": "Concept note", "origin": "Drafted by PAMS", "due": "2026-09-12", "status": "In review", "link": "", "path": "SharePoint › EPR › Strategy" },
+    { "topic": "q3", "title": "Q3 Emergency Response Performance Report", "type": "Report", "origin": "Requested by RD", "due": "2026-09-05", "status": "Drafting", "link": "", "path": "SharePoint › EPR › Reports › Q3" },
+    { "title": "Country Office Readiness Assessment — Pakistan", "type": "Assessment", "origin": "Requested by RD", "due": "2026-09-24", "status": "Drafting", "link": "", "path": "SharePoint › EPR › Missions › PAK" },
+    { "title": "Concept Note: Regional Simulation Exercise", "type": "Concept note", "origin": "Drafted by PAMS", "due": "2026-09-30", "status": "Cleared", "link": "", "path": "SharePoint › EPR › Strategy › Exercises" },
+    { "title": "Health Emergency Financing Brief", "type": "Brief", "origin": "Drafted by PAMS", "due": "2026-09-08", "status": "In review", "link": "", "path": "SharePoint › EPR › Financing" },
+    { "title": "Annual EPR Workplan Narrative", "type": "Report", "origin": "Requested by RD", "due": "2026-10-09", "status": "Not started", "link": "", "path": "SharePoint › EPR › Workplan" }
+  ],
+  "missions": [
+    { "id": "isl", "place": "Islamabad, Pakistan", "start": "2026-09-21", "end": "2026-09-24", "purpose": "Country office readiness assessment + RD briefing note", "tr_approved": "yes", "report_submitted": "no", "claim_submitted": "no" },
+    { "id": "cai", "place": "Cairo, Egypt", "start": "2026-07-08", "end": "2026-07-12", "purpose": "Regional simulation exercise design workshop", "tr_approved": "yes", "report_submitted": "no", "claim_submitted": "no" },
+    { "id": "gva", "place": "Geneva (HQ)", "start": "2026-10-27", "end": "2026-10-29", "purpose": "HQ coordination on emergency financing", "tr_approved": "no", "report_submitted": "no", "claim_submitted": "no" }
+  ],
+  "conferences": [
+    { "id": "amm", "title": "Regional Health Emergencies Conference, Amman", "start": "2026-09-15", "end": "2026-09-16", "role": "Keynote speaker", "confirmed": "yes", "abstract_sent": "yes", "slides_ready": "no", "brief_read": "no" },
+    { "id": "doh", "title": "Global Health Security Forum, Doha", "start": "2026-11-18", "end": "2026-11-18", "role": "Panellist", "confirmed": "no", "abstract_sent": "no", "slides_ready": "no", "brief_read": "no" }
+  ],
+  "memos": [
+    { "id": "mo1", "topic": "surge", "action": "sign", "origin": "CO", "title": "Pakistan CO — request for surge deployment support", "meta": "For clearance · 2 attachments", "date": "2026-09-08", "link": "" },
+    { "id": "mo2", "topic": "grading", "action": "read", "origin": "HQ", "title": "HQ EPR — revised grading guidance circulation", "meta": "For information", "date": "2026-09-05", "link": "" },
+    { "id": "mo3", "topic": "tr-isl", "action": "sign", "origin": "Internal", "title": "Travel authorisation — Islamabad mission", "meta": "Awaiting your signature", "date": "2026-09-04", "link": "" },
+    { "id": "mo4", "action": "read", "origin": "CO", "title": "Sudan CO — monthly situation memo", "meta": "Linked to the Q3 report", "date": "2026-09-02", "link": "" }
+  ],
+  "inbox_rules": {
+    "categories": ["Invitation to conference", "Document to review", "Decision to make", "Needs response", "For information"],
+    "urgency_rules": ["Anything from the RD front office is urgent", "Requests with a date inside 48 hours are urgent"],
+    "reminder_lead": "1 day before"
+  },
+  "mails": [
+    { "id": "m1", "topic": "doha", "short": "Doha panel", "category": "Invitation to conference", "action": "Decision needed", "urgent": "yes", "subject": "Invitation to serve as panellist — Global Health Security Forum, Doha", "sender": "Forum secretariat", "received_hours_ago": 2, "responded": "no",
+      "summary": "They ask you to sit on the closing panel on regional preparedness financing (18 Nov, 45 min). They need a yes/no and a short bio by Friday. Travel is covered.", "attachment": "Panel concept note.pdf" },
+    { "id": "m2", "topic": "q3", "short": "Q3 report clearance", "category": "Document to review", "action": "Action required", "urgent": "yes", "subject": "Q3 Emergency Response Performance Report — your clearance", "sender": "PAMS", "received_hours_ago": 18, "responded": "no",
+      "summary": "Third draft, comments from the RD front office already incorporated. Only section 4 (financing gaps) still needs your steer.", "attachment": "Q3_Performance_Report_v3.docx" },
+    { "id": "m3", "topic": "surge", "short": "Pakistan surge", "category": "Decision to make", "action": "Action required", "urgent": "no", "subject": "Surge deployment — Pakistan CO requests 3 officers", "sender": "Pakistan country office", "received_hours_ago": 48, "responded": "no",
+      "summary": "The CO wants three surge officers for six weeks. Budget exists in the regional line; HR needs your written approval to release them.", "attachment": "Surge_request_PAK.pdf" },
+    { "id": "m4", "topic": "donor", "short": "Donor call points", "category": "Needs response", "action": "Replied", "urgent": "no", "subject": "Talking points for the donor call on Thursday", "sender": "DRD office", "received_hours_ago": 72, "responded": "yes",
+      "summary": "You replied asking for the donor list first. Nothing further needed from you until they send it back.", "attachment": "" },
+    { "id": "m5", "topic": "grading", "short": "Grading guidance", "category": "For information", "action": "No action", "urgent": "no", "subject": "Revised grading guidance for graded emergencies", "sender": "HQ EPR", "received_hours_ago": 96, "responded": "no",
+      "summary": "Guidance takes effect 01 Oct. Nothing required from you; PAMS will cascade it to programme leads.", "attachment": "Grading_guidance_2026.pdf" }
+  ],
+  "requests": [
+    { "id": "r1", "topic": "board", "from": "RD office", "title": "Two slides on regional readiness for the board remarks", "urgency": "Today", "received_hours_ago": 1 },
+    { "id": "r2", "topic": "donor", "from": "DRD office", "title": "Review draft talking points for the donor call", "urgency": "This week", "received_hours_ago": 24 },
+    { "id": "r3", "from": "NCD cluster", "title": "Share the EPR mission template for a joint field visit", "urgency": "No date", "received_hours_ago": 120 }
+  ],
+  "todos": [
+    { "id": 1, "topic": "q3", "text": "Clear section 4 of the Q3 performance report", "kind": "Document", "due_in_hours": -30, "done": "no" },
+    { "id": 2, "text": "EPR programme management meeting", "kind": "Statutory", "due_in_hours": 1, "done": "no" },
+    { "id": 3, "text": "Regional preparedness webinar — chair Q&A", "kind": "Conference", "due_in_hours": 72, "done": "no" },
+    { "id": 4, "topic": "tr-isl", "text": "Sign travel authorisation — Islamabad mission", "kind": "Admin", "due_in_hours": -20, "done": "yes" },
+    { "id": 5, "topic": "doha", "text": "Decide on Doha panel invitation", "kind": "Decision", "due_in_hours": 50, "done": "no" },
+    { "id": 6, "topic": "surge", "text": "Approve Pakistan surge deployment request", "kind": "Decision", "due_in_hours": -10, "done": "no" }
+  ],
+  "topics": {
+    "q3": "Q3 performance report — clear section 4",
+    "surge": "Pakistan surge deployment — approve",
+    "doha": "Doha panel invitation — decide",
+    "tr-isl": "Islamabad travel authorisation — sign",
+    "donor": "Donor call talking points — review",
+    "board": "Board remarks — two readiness slides"
+  },
+  "hubs": [
+    { "hub": "Nairobi hub", "lead_text": "Emergency operations · 22 staff", "open_missions": 3, "missions_note": "2 awaiting expense claims", "meetings_this_week": 6, "meetings_note": "2 open to other hubs",
+      "extra_stat": { "label": "Graded emergencies", "value": 2, "unit": "active", "note": "Cholera · displacement" },
+      "activities": [
+        { "activity_title": "Horn of Africa cholera response — operational review", "activity_meta": "Emergency operations · with WCO Kenya", "due": "2026-09-18", "status": "In review" },
+        { "activity_title": "Surge roster refresh for the East Africa sub-region", "activity_meta": "Requested by RD office", "due": "2026-09-26", "status": "Drafting" },
+        { "activity_title": "Simulation exercise after-action report", "activity_meta": "Follows the July Cairo workshop", "due": "2026-09-02", "status": "Drafting" },
+        { "activity_title": "Partner coordination note — displacement corridor", "activity_meta": "Shared with the NCD cluster", "due": "2026-10-10", "status": "Not started" }
+      ],
+      "people": [
+        { "name": "Hub lead — emergency operations", "role": "Missions, surge, graded events" },
+        { "name": "Preparedness officer", "role": "IHR capacity and simulations" },
+        { "name": "Information manager", "role": "Sitreps and dashboards" }
+      ],
+      "pending": "Hub meeting series and mission calendar will appear here once Faiza shares the Nairobi calendar export." },
+    { "hub": "Dakar hub", "lead_text": "West Africa operations · 18 staff", "open_missions": 2, "missions_note": "Both reports outstanding", "meetings_this_week": 4, "meetings_note": "1 open to other hubs",
+      "extra_stat": { "label": "Graded emergencies", "value": 1, "unit": "active", "note": "Cholera — Senegal border" },
+      "activities": [
+        { "activity_title": "Cholera response sync with WCO Senegal", "activity_meta": "Weekly · hub lead chairs", "due": "2026-09-16", "status": "In review" },
+        { "activity_title": "West Africa readiness scorecard narrative", "activity_meta": "Drafted by hub, cleared by PAMS", "due": "2026-09-30", "status": "Drafting" },
+        { "activity_title": "Francophone training package — translation", "activity_meta": "Requested by country offices", "due": "2026-10-14", "status": "Not started" }
+      ],
+      "people": [
+        { "name": "Hub lead — West Africa", "role": "Operations and partner liaison" },
+        { "name": "Readiness officer", "role": "Scorecards and training" }
+      ],
+      "pending": "Awaiting the Dakar meeting cadence and the list of country offices the hub covers." },
+    { "hub": "Brazzaville", "lead_text": "Regional office · 34 staff", "open_missions": 4, "missions_note": "1 closed this month", "meetings_this_week": 9, "meetings_note": "Statutory series included",
+      "extra_stat": { "label": "Clusters engaged", "value": 3, "unit": "clusters", "note": "EPR · NCD · UHC" },
+      "activities": [
+        { "activity_title": "Annual EPR workplan — budget and staffing session", "activity_meta": "Regional office · programme leads", "due": "2026-09-17", "status": "In review" },
+        { "activity_title": "Regional Committee briefing pack", "activity_meta": "Requested by RD office", "due": "2026-10-01", "status": "Drafting" },
+        { "activity_title": "Pandemic fund proposal — annex consolidation", "activity_meta": "With financing team", "due": "2026-09-08", "status": "Drafting" },
+        { "activity_title": "Emergency roster policy update", "activity_meta": "Internal memo, awaiting signature", "due": "2026-09-22", "status": "Not started" }
+      ],
+      "people": [
+        { "name": "Programme management (PAMS)", "role": "Concept notes and reporting" },
+        { "name": "Financing lead", "role": "Pandemic fund and donors" },
+        { "name": "Administration", "role": "Travel, TRs and claims" }
+      ],
+      "pending": "Statutory series is already mapped in the personal calendar; the office-wide calendar still needs to be shared." },
+    { "hub": "RD office", "lead_text": "Front office · 6 staff", "open_missions": 1, "missions_note": "Geneva, late October", "meetings_this_week": 11, "meetings_note": "Mostly bilaterals",
+      "extra_stat": { "label": "Open requests", "value": 3, "unit": "ad-hoc", "note": "1 needed today" },
+      "activities": [
+        { "activity_title": "Board remarks — regional readiness slides", "activity_meta": "Ad-hoc request to you", "due": "today", "status": "Drafting" },
+        { "activity_title": "Q3 Emergency Response Performance Report", "activity_meta": "Awaiting your clearance", "due": "2026-09-12", "status": "In review" },
+        { "activity_title": "Donor call talking points", "activity_meta": "DRD office · you replied", "due": "2026-09-18", "status": "In review" }
+      ],
+      "people": [
+        { "name": "Dr Chamla — Director, EPR", "role": "Mutual dashboard access" },
+        { "name": "RD front office", "role": "Requests and clearances" }
+      ],
+      "pending": "Front-office request log will populate here once the shared mailbox is connected." }
+  ],
+  "directory": [
+    { "name": "Dr Chamla", "role": "Director, EPR — mutual access", "hub": "Brazzaville", "mutual_access": "yes" },
+    { "name": "Faiza", "role": "Programme management (PAMS)", "hub": "Brazzaville", "mutual_access": "yes" },
+    { "name": "Aji", "role": "Next dashboard in line", "hub": "", "mutual_access": "no" },
+    { "name": "Nairobi hub lead", "role": "Emergency operations", "hub": "Nairobi", "mutual_access": "yes" },
+    { "name": "Dakar hub lead", "role": "West Africa operations", "hub": "Dakar", "mutual_access": "yes" },
+    { "name": "Brazzaville RO", "role": "Regional office coordination", "hub": "Brazzaville", "mutual_access": "yes" },
+    { "name": "NCD cluster lead", "role": "Joint field activities", "hub": "", "mutual_access": "yes" },
+    { "name": "RD front office", "role": "Requests and clearances", "hub": "Brazzaville", "mutual_access": "yes" }
+  ],
+  "shared_files": [
+    { "title": "EPR mission report template", "owner": "PAMS", "updated": "2026-09-04", "scope": "All hubs" },
+    { "title": "Regional Preparedness Concept Note 2027 (draft)", "owner": "PAMS", "updated": "2026-09-09", "scope": "EPR only" },
+    { "title": "Grading guidance 2026 — HQ circular", "owner": "HQ EPR", "updated": "2026-09-05", "scope": "All hubs" },
+    { "title": "Readiness scorecard — data workbook", "owner": "Dakar hub", "updated": "2026-09-01", "scope": "All hubs" },
+    { "title": "Joint field visit planning note — EPR & NCD", "owner": "NCD cluster", "updated": "2026-08-28", "scope": "Cross-cluster" }
+  ],
+  "setup": [
+    { "name": "Calendars", "status": "Awaiting", "need": "Outlook export for {owner}, plus the statutory meeting series for each hub.", "target": "Calendar · shared calendar" },
+    { "name": "Activity log", "status": "Awaiting", "need": "Meetings attended, documents drafted and missions taken since January — seeds the monthly report.", "target": "Activity report drawer" },
+    { "name": "Document library", "status": "Partial", "need": "SharePoint folder paths for concept notes, reports and memos so titles link straight through.", "target": "Documents" },
+    { "name": "Missions & conferences", "status": "Awaiting", "need": "Mission list with TR, report and claim status; conference invitations with your role in each.", "target": "Missions · Conferences" },
+    { "name": "Mailbox connection", "status": "Setup session", "need": "Remote session to connect the mailbox and set your triage categories and urgency rules.", "target": "Inbox" },
+    { "name": "Colour scheme", "status": "Confirmed", "need": "WHO blue accent, red only for anything late or urgent, everything else grey.", "target": "Whole dashboard" }
+  ],
+  "monthly_report": {
+    "stats": [
+      { "value": 6, "label": "Conferences & webinars attended" },
+      { "value": 11, "label": "Documents drafted or reviewed" },
+      { "value": 2, "label": "Missions completed" }
+    ],
+    "sections": [
+      { "title": "Conferences and meetings attended", "page": "Page 1", "lines": ["Regional Health Emergencies Forum, Amman — keynote on preparedness financing.", "EPRL staff meeting and four programme management meetings.", "Two donor briefings hosted with the RD office."] },
+      { "title": "Strategic documents", "page": "Page 2", "lines": ["Drafted: Regional Preparedness Concept Note 2027; Health Emergency Financing Brief.", "Reviewed for RD clearance: Q3 Emergency Response Performance Report.", "Cleared: Concept Note on the Regional Simulation Exercise."] },
+      { "title": "Missions, memos and ad-hoc support", "page": "Page 3", "lines": ["Missions: Islamabad readiness assessment; Cairo simulation workshop (claim outstanding).", "Memos processed: 9 — 4 country office, 3 HQ, 2 internal.", "Ad-hoc requests handled from RD, DRD and the NCD cluster: 7."] }
+    ]
+  }
+}
